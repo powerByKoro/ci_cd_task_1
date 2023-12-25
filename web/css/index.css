@@ -1,0 +1,58 @@
+.container {
+    margin-top: 100px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* добавляем тень */
+    padding: 20px;
+    border-radius: 8px; /* добавляем закругление углов */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #f8b500;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ec9600;
+}
+
+.error-block {
+    display: none;
+    text-align: center;
+    right: 40px;
+    background-color: #F4F6F9; /* Светло-серый фон */
+    color: #202C39; /* Темно-синий текст */
+    padding: 10px; /* Внутренний отступ блока */
+    border: 1px solid red; /* Светло-синяя граница */
+    margin-bottom: 10px; /* Внешний отступ снизу */
+    font-size: 14px; /* Размер текста */
+    line-height: 1.5; /* Межстрочный интервал */
+    border-radius: 4px; /* Закругленные углы блока */
+}
+
+.new-table {
+    margin-top: 20px;
+}
