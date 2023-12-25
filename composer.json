@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app",
+            "engine\\" : "engine",
+            "engine\\Router\\" : "engine/Router/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.29",
+        "ext-simplexml": "*"
+    }
+}
